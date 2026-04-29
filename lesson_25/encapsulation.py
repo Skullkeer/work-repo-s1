@@ -15,7 +15,7 @@ class BankAccount:
         if change < self.__value:
             self.__value -= change
         else:
-            raise Exeption
+            raise Exception("Not enough funds!")
 
 ################################################
 # pretend this is a seperate file
