@@ -1,0 +1,10 @@
+One prominent battle between files types in the tech world
+is that between .zip compression and .tar.gz compression.
+Overall, .zip is a much more commonly used archive file.
+One of the main reason for this is the prominence of windows,
+.zip works a lot better for cross platform transfer, especially
+windows. Since windows is by far the most popular desktop
+OS, the convenience of .zip won over most people. For a class
+project i would use .tar.gz because its the standard for linux,
+the kernel used here in the lab. I also use linux at home so
+that makes it more convenient.

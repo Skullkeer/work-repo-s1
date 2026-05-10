@@ -1,0 +1,9 @@
+Tinder uses a lot of red to represent love in their application,
+this works because in the west, red is typically associated with
+love and valentines day. In china purple is more commonly associated
+with love, in order to attract the local chinese market we could change
+the general color scheme to purple. When affirming you want to date
+someone in tinder you click a green heart. In chinese culture, green
+doesnt represent love so a color shift would help with localisation.
+Before releasing it would be helpful to test what colors best represent
+love or affirmation of love to the chinese population using the app.

@@ -1,0 +1,5 @@
+-- Classes: Blueprint of an object
+-- Object: instannces of the classes
+-- Attribuites: things that the object contains
+-- Methods: thing the objects can do
+
