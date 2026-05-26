@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   line-height: 1.6;
 }
 
@@ -20,3 +20,11 @@ header {
 /* TODO: Style buttons and add a hover effect. */
 
 /* TODO: Add a simple responsive rule for small screens. */
+h3 {
+  padding-left: 20px;
+}
+
+p {
+  padding-left: 40px;
+  color: black;
+}
