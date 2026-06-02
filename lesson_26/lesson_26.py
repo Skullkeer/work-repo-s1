@@ -10,10 +10,10 @@ comp = Computer(
     "Samsung m.2 NVME 16TB"
     )
 
-comp.turn_on()
-comp.compute()
-comp.print_specs()
-comp.turn_off()
+# comp.turn_on()
+# comp.compute()
+# comp.print_specs()
+# comp.turn_off()
 
 
 lapt = Laptop(
@@ -25,15 +25,18 @@ lapt = Laptop(
         180
     )
 
+#
+# lapt.charge()
+# lapt.compute()
+# lapt.print_specs()
+# lapt.turn_off()
+#
+# desk = Desktop(100, 1000)
+#
+# desk.turn_on()
+# desk.cool_better()
+# desk.taking_space()
+# desk.turn_off()
+#
 
-lapt.charge()
-lapt.compute()
-lapt.print_specs()
-lapt.turn_off()
-
-desk = Desktop(100, 1000)
-
-desk.turn_on()
-desk.cool_better()
-desk.taking_space()
-desk.turn_off()
+print(comp.cpu)

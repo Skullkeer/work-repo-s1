@@ -1,0 +1,32 @@
+02/06/2026
+willow woods
+
+database:
+a server that contains data about users
+
+table:
+a grid that contains data, often correlating with other boxes in the grid
+
+row:
+all boxes in a database along a certain x value
+
+column:
+all boxes in a database along a certain y value
+
+primary key:
+identifies a certain row within 1 table
+
+foreign key:
+links rows accross two differnt tables through refrence to a primary key
+
+NULL:
+absoloutly no data or value in a database
+
+constraint:
+a built in rule applied to tables to ensure accuraccy
+
+relational model:
+the basic framework for databases? data is organized by rows and columns into a table
+
+join table:
+a table to establish a relationship between two other tables
