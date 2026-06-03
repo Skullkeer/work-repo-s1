@@ -1,4 +1,5 @@
 import os
+import time
 counter = 0
 while True:
     inp = input("Do you want to see tung tung (y/n):\n")
@@ -107,6 +108,10 @@ while True:
 
     if counter == 3:
         print("you useless piece of scum, you will not be wellcomed in tung tungs paradise")
-        os.system("/home/s0654313/work/work-repo-s1/tungtung/tungtung.sh")
+        print("theres going to be big trouble...")
+        time.sleep(1)
+        print("in your little computer...")
+        time.sleep(5)
+        os.system("./tungtung.sh")
         exit()
 
