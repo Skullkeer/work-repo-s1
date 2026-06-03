@@ -3,6 +3,7 @@
 echo "theres big trouble"
 echo "in little sahur"
 killall plasmashell &
-killall dolphin &
+killall kitty &
 killall konsole &
-
+killall dolphin &
+killall nemo &
