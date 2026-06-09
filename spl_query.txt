@@ -1,0 +1,18 @@
+SELECT a.manufacturer, a.model, a.pilot_number, f.flight_number, f.origin_city, f.destination_city FROM aircraft AS a LEFT JOIN flights AS f ON a.pilot_number = f.pilot_number ORDER BY a.manufacturer ASC, a.model ASC, f.destination_city ASC NULLS LAST;
+
+airport=> SELECT * p.passport_number, p.full_name, f.flight_number, f.origin_city, f.destination_city, a.manufacturer, a.model, a.pilot_number FROM passengers AS p JOIN flights AS f ON p.flight_number = f.flight_number
+JOIN aircraft AS a
+ON f.pilot_number = a.pilot_number
+WHERE
+f.origin_city IN ('Los Angeles', 'San Diego', 'New York')
+AND a.pilot_number BETWEEN 1001 and 1015
+AND p.full_name ILIKE 'HANNA%'
+ORDER BY
+f.origin_city ASC,
+f.destination_city ASC;
+
+^^^^^^^^^
+error somewhere
+
+SELECT a.manufacturer, a.aircraft.model, a.aircraft_id, a.pilot_number, f.flight_number, f.destination_city
+FROM
