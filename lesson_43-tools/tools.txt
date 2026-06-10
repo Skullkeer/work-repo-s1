@@ -1,0 +1,83 @@
+To anser tools questions:
+
+Constrainsts:
+- run on class computers without complex install
+- limited linux experience
+- limited lesson time
+- max 10, 000 records (a small number)
+- works well with python
+- low maintenence - students cant fix their own database
+
+Evaluation criteria:
+- ease of setup
+- ease of learning
+- reliability
+- python compatability
+- performance on small dataset
+
+Possible options:
+- SQLite
+- PostgreSQL
+
+Evaluation:
+criteria                        SQLite                      PostgreSQL
+- ease of setup                 Excellent                   Moderate
+- ease of learning              Excellent                   Good
+- reliability                   Moderate                    Excellent
+- python compatabilitY          Excellent                   Limited
+- performance on small dataset  Excellent                   Excellent
+
+Conclusion (reasoned from above):
+SQLite is the better fit for the scenario because the project prioritises simplicity, classroom setup speed,
+begginner accessability over enterprise features. PostgreSQL is technecally more powerfull but the
+advantage does not strongly benifit the stated requirements
+
+Note for you: Good tech decisions are justified against explicit requirements and
+contraints not personal prefrence or popularity
+
+-------------------------------------------------------------------------------------------------------------------
+
+ADR
+
+Using SQLite for the first python DB project
+status: accepted
+context: beginner python students need to practice basic database concepts, including
+tables, keys, insterts, queries, filters and join. project must be quick to set up
+
+decision: use sqlite for the first db project
+
+alternatives:
+    SQLite
+    PostgreSQL
+    MySQL
+
+Reasons
+- SQLite is built into python using sqlite3
+- it uses a single DB filters
+- does not require a seperate server
+-> this keeps the focus on SQL/python
+
+trade offs: ...
+
+consequences: students can start quickly and recover easily from mistakes, later lessons can
+move to PostgreSQL once students understand the core DB ideas
+
+ethics and bias consideration:
+    Bias towards python compatability
+    Bias towards begginners
+    we could unintentionally bias students towards familiarity towards one db, using a less reliable tech
+    Mitigations: lesson plan should emphasize upsides and downsides, include other dbs -> make a comparison
+
+
+
+
+
+
+
+
+
+
+
+
+
+
