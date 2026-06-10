@@ -1,0 +1,100 @@
+Fairness:
+designing a system so that outcome are reasonable equitable.
+
+Where can bias enter the development/deployment process
+
+Stage               Example pf Bias
+Data Collection     Underrepresented groups
+Data labeling       humman annotaters apply sterotypes
+Feature selection   sensitive proxies accidentally included
+Model training      model amplifies existing patterns
+Evaluation          metrics hide unequal outcomes
+Deployment          real-world usage changes behaviour
+
+a hiring model is trained using historical company hiring records
+
+problems:
+- historically -> racial prefrences -> propogate
+- past managers -> personal biases
+- dataset -> it may contain a propensity for keywords (Harvard/MIT (school names), B Software Engineering (programs))
+- the model may learn correlations that reflect past trends, correlation, past discrimination rather than actual merit/capability
+
+Hypothetically lets assume the model is biased for gender
+Other fields (or proxies) may still exhibit bias:
+- years of expiericnce
+- age
+- proximity to work place
+- socioeconomic status reflected by post codes
+- writing style
+
+All of this can unintentionally reproduce unfair outcomes
+
+simple fairness questions for teams and models:
+- are some groups better - (being overselected)
+- is the training data reflective of reality
+- are the errors distribuited equally
+- can decisions be reviewed and challenged?
+
+algorithms do not appear neutral automatically.
+they inherit assumptions from the creators
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+measures that mitigate the above
+
+improve data balence        reduce underrepresentation
+remove biased labels        reduce harmful historical patterns
+feature review              detect sensitive proxies
+threshhold adjustment       balence error rates between groups
+human oversight             allow review of important decisions
+explainability tools        make decisions easier to inspect
+continious auditing         detect drift after employment
+
+trade-offs
+
+more balanced data          Higher Collection cost
+removing paramaters         Lower predictive accuracy
+lowering threshholds        More false positives, lower capabilities
+human review                slower decision making, more bias
+explainability              simplicity -> less accuracy/less powerfull
+
+
++--------------------------+
+|                          |
+|                          |
+|                          |
+|                          |
++--------------------------+
+
+conclusions:
+- fairness does not have a universal definition, need to look at contraints and needs
+- when deciding on mitigation strategies, label payoffs and tradeoffs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
