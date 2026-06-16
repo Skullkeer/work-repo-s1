@@ -1,0 +1,390 @@
+########################################################
+#  ____                 _       _                      #
+# | __ ) _ __ ___  __ _| | ____| | _____      ___ __   #
+# |  _ \| '__/ _ \/ _` | |/ / _` |/ _ \ \ /\ / / '_ \  #
+# | |_) | | |  __/ (_| |   < (_| | (_) \ V  V /| | | | #
+# |____/|_|  \___|\__,_|_|\_\__,_|\___/ \_/\_/ |_| |_| #
+#                                                      #
+########################################################
+
+Year:            2026
+Semester:        S1
+Unit:            Introduction to Programming
+Item:            3
+Weight:          15%
+
+Item Type:       Website
+Item Content:    Flask web development, HTML templating, Responsive layout design, CSS styling and specificity, JavaScript interactivity, Form handling and user experience refinement
+
+##########################################
+#   ___   __  ____  _  _  _____ _ _____  #
+#  / _ \ / /_| ___|| || ||___ // |___ /  #
+# | | | | '_ \___ \| || |_ |_ \| | |_ \  #
+# | |_| | (_) |__) |__   _|__) | |___) | #
+#  \___/ \___/____/   |_||____/|_|____/  #
+#                                        #
+##########################################
+
+Student:         Willow Woods
+Student ID:      0654313
+Line:            6
+Cohort:          Y12
+Accreditation:   Tertiary
+
+Received:        2026-05-27 11:11:21
+Late Penalty:    0 Days
+Insubstantial:   N
+
+==========================================================================================
+
+The criteria below may be paraphrasing the criteria from the original item.
+If you have any doubts or questions, please ask your teacher for assistance.
+
+For each of the criteria, one of three letters indicates the level of achievement.
+N - student's response *did not achieve* this requirement
+P - student's response *partially achieved* this requirement
+Y - student's response *achieved* this requirement
+
+All programs, if any, were executed in a linux-based environment.
+
+==========================================================================================
+
+QUESTION 1
+Flask routes and request-response analysis
+
+a)
+Creates market Flask app:       Y
+Market home route works:        Y
+Market routes created:          Y
+Purposeful route names:         Y
+
+b)
+Browser request described:      Y
+Route template link explained:  Y
+Rendered response explained:    Y
+
+Feedback:
+Your program creates the Flask application for the market website.
+Your home route returns the required home template.
+Your response describes the browser request made to the Flask server.
+Your response explains how a route function selects or returns a template.
+Your response explains that the rendered page is returned to the browser.
+You demonstrated a strong understanding of the complete Flask request-response cycle from request through rendering and display.
+
+                            Item 3 - Tertiary Q1
+       +--------------------------------------------------------------+
+       |                                                              |
+       |                                                              |
+       |                                                         A    |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                    A         A               |
+       |                                                              |
+       |                                                              |
+       |                                            A                 |
+       |                                                              |
+       |                         A            A          A  A A       |
+       |                                                              |
+       |                                                              |
+    <<<---- Lower scores ------------------------- Higher scores ---->>>
+
+                                                                 ^
+                                                                 |
+                                                                 |
+                                                                =-=
+                                                                |X|
+                                                                =-=
+
+       The 'X' symbol above approximates your performance relative to the class.
+       Raw scores are omitted; only moderated scores are published per BSSS policy.
+       The horizontal axis indicates performance level.
+       The vertical axis indicates number of students.
+       'A' symbols mark the number of students achieving similar performance.
+
+==========================================================================================
+
+QUESTION 2
+HTML templating, responsive sections, and media integration
+
+a)
+Semantic market HTML:           Y
+Market navigation links:        Y
+Required market pages created:  Y
+Audience content included:      Y
+Hero section created:           Y
+
+b)
+Stock image inserted:           P
+Market image placement:         Y
+Useful market alt text:         Y
+
+c)
+Stall highlights section:       Y
+Responsive containers used:     P
+Descriptive HTML classes:       N
+
+Feedback:
+Your HTML uses semantic elements for the major page sections.
+Your work includes the required home, stalls, safety, and volunteer HTML pages.
+Your pages include headings and content suited to the target audience.
+Your page includes a clear hero section with a heading and introductory content.
+Your page attempts to include a stock image but contains issues.
+Your image placement suits the market page content and layout.
+Your HTML structure partially supports responsive layout.
+You created all required pages with consistent navigation, audience-focused content, and clear stall highlights.
+
+                            Item 3 - Tertiary Q2
+       +--------------------------------------------------------------+
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                    A   A     A       A       |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                         A   A   AA   A   A AA  AA  A         |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+    <<<---- Lower scores ------------------------- Higher scores ---->>>
+
+                                                              ^
+                                                              |
+                                                              |
+                                                             =-=
+                                                             |X|
+                                                             =-=
+
+       The 'X' symbol above approximates your performance relative to the class.
+       Raw scores are omitted; only moderated scores are published per BSSS policy.
+       The horizontal axis indicates performance level.
+       The vertical axis indicates number of students.
+       'A' symbols mark the number of students achieving similar performance.
+
+==========================================================================================
+
+QUESTION 3
+CSS styling, layout refinement, and specificity analysis
+
+a)
+Consistent market theme:           P
+Readable CSS text styling:         Y
+Market hover effect:               N
+CSS selectors target elements:     Y
+
+b)
+Selectors affecting same element:  Y
+Style interaction explained:       Y
+
+Feedback:
+Your CSS applies some consistent styling but lacks full consistency.
+Your selectors target the intended HTML elements.
+Your response explains how one style overrides changes or combines with another style.
+You gave a strong explanation of how CSS specificity and ordering affect which style is applied.
+
+                            Item 3 - Tertiary Q3
+       +--------------------------------------------------------------+
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                      A     A    A                            |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                       A     A     A          |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                               A    A                A  A     |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+    <<<---- Lower scores ------------------------- Higher scores ---->>>
+
+                                                     ^
+                                                     |
+                                                     |
+                                                    =-=
+                                                    |X|
+                                                    =-=
+
+       The 'X' symbol above approximates your performance relative to the class.
+       Raw scores are omitted; only moderated scores are published per BSSS policy.
+       The horizontal axis indicates performance level.
+       The vertical axis indicates number of students.
+       'A' symbols mark the number of students achieving similar performance.
+
+==========================================================================================
+
+QUESTION 4
+JavaScript interactions and evaluation of client-side behaviour
+
+a)
+Visitor tip listener:           N
+JS reads user text:             Y
+JS page text update:            Y
+Readable JS functions:          Y
+
+b)
+JS event identified:            N
+Input to update explained:      P
+Interaction purpose connected:  Y
+
+Feedback:
+Your JavaScript reads text from the user input field.
+Your JavaScript updates visible page text without reloading the page.
+Your JavaScript uses readable variable names and simple functions.
+Your response connects the interaction to clarity accessibility or maintainability.
+You created effective page updates using JavaScript and explained how this improves user engagement.
+
+                            Item 3 - Tertiary Q4
+       +--------------------------------------------------------------+
+       |                                                              |
+       |          A                                                   |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |        A    A     A                                          |
+       |                                                              |
+       |                            A  A       A     A                |
+       |                                                              |
+    <<<---- Lower scores ------------------------- Higher scores ---->>>
+
+                                               ^
+                                               |
+                                               |
+                                              =-=
+                                              |X|
+                                              =-=
+
+       The 'X' symbol above approximates your performance relative to the class.
+       Raw scores are omitted; only moderated scores are published per BSSS policy.
+       The horizontal axis indicates performance level.
+       The vertical axis indicates number of students.
+       'A' symbols mark the number of students achieving similar performance.
+
+==========================================================================================
+
+QUESTION 5
+Form handling and website refinement for user readiness
+
+a)
+Volunteer form route:         N
+Volunteer hours processed:    N
+Role suggestion displayed:    N
+
+b)
+Visible polish change:        Y
+Audience consistent polish:   Y
+Refinement justified:         N
+Existing features preserved:  Y
+
+Feedback:
+Your work includes a visible polish change to wording layout navigation or feedback.
+Your polish change is consistent with the market volunteer audience.
+Your work does not justify the refinement clearly.
+Your refinement does not break existing routes navigation or interactions.
+
+                            Item 3 - Tertiary Q5
+       +--------------------------------------------------------------+
+       |                                                              |
+       |                           A                                  |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                        A                                     |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                                                              |
+       |                 A                                            |
+       |                                                              |
+       |                    A                                         |
+       |                                                              |
+       |                                                              |
+       |             A                 A                              |
+       |                                                              |
+    <<<---- Lower scores ------------------------- Higher scores ---->>>
+
+                                   ^
+                                   |
+                                   |
+                                  =-=
+                                  |X|
+                                  =-=
+
+       The 'X' symbol above approximates your performance relative to the class.
+       Raw scores are omitted; only moderated scores are published per BSSS policy.
+       The horizontal axis indicates performance level.
+       The vertical axis indicates number of students.
+       'A' symbols mark the number of students achieving similar performance.
+
+==========================================================================================
+
+OVERALL PERFORMANCE
+
+Presentation Feedback:
+No major issues.
+
+                               Item 3 - Tertiary Total
+        +-------------------------------------------------------------------+
+        |                                                                   |
+        |                                                                   |
+        |                                                                   |
+        |                                         *                         |
+        |                                         *                         |
+        |                                         *                         |
+        |                                         *                         |
+        |                                         *                         |
+        |                                         *                         |
+        |                                         *                         |
+        |                           *     *** **  *                         |
+        |                           *     *** **  *                         |
+        |                           *     *** **  *                         |
+        |                           *     *** **  *                         |
+        |                 **        * *********** ****  ***  **             |
+        |                 **        * *********** ****  ***  **             |
+        |                 **        * *********** ****  ***  **             |
+        |                 **        * *********** ****  ***  **             |
+        <<<---- Lower scores ------------------------- Higher scores ---->>>+
+
+                                                              ^
+                                                              |
+                                                              |
+                                                             =-=
+                                                             |X|
+                                                             =-=
+
+       The 'X' symbol above approximates your performance relative to the class.
+       Raw scores are omitted; only moderated scores are published per BSSS policy.
+       The horizontal axis indicates performance level.
+       The vertical axis indicates number of students.
+
+Reminder:
+If this item permitted you to use a personal summary and yours was collected after this item,
+you may now ask your teacher to return your summary to you.

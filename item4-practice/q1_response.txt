@@ -1,0 +1,52 @@
+Text response file
+
+ITEM 4 (PRACTICE - TERTIARY) - QUESTION 1
+
+Provide your responses for Q1 here
+Unless otherwise indicated, no other files will be assessed for this question
+
+Write your responses next to the '>' characters only
+You should only be writing points or brief sentences next to each '>' character
+The number of '>' characters indicates the maximum number of points/sentences for the response
+You may not need to use all of the provided lines
+Excessively long or unclear communications may be penalized
+
+==================================================
+
+a)
+
+> The two needs of the stakeholders are, 1; playtesters
+> being able to register intrest and 2; producers being able to allocate designers based on tags and availability.
+> The constraint of being unable to save unenessary playtester data causes a few problems.
+> For example, in order to choose the sessions for any playtester based on their prefrences, PixelForge would likely need an account
+> for the platform which stores their prior sessions. In order to get around this, we could just save
+> the tags from the playtesters prior sessions rather than all details about
+> the session, this would minimise the stored date for any given user.
+
+==================================================
+
+b)
+
+> The SRS explains what the required system should do so that
+> shareholders can easily understand what the system does or even add a request,
+> on the other hand, equally as important, the SDD explains a design choice
+> so that the developers can understand and implement the feature while giving them the specifics
+
+==================================================
+
+c)
+
+> Producers can access the client and dev session data through a
+> CheckTimes class with a public method CompareTimes
+
+> The producers have easy access to genre tags and  times
+> for games, producers, and playtesters
+
+==================================================
+
+d)
+
+> The allocation screen should take an average of 52.3s for
+> a person to learn and fully understand. This can be measured
+> by paying for test participents with a producing background
+> to learn our allocation screen and timing + averaging them.
